@@ -15,10 +15,7 @@ $desktop: 1280px;
   .main {
     line-height: 150px;
     border-bottom: 2px solid var(--secondary);
-
-    &:hover {
-      background-color: var(--primary_dark);
-    }
+    background-color: var(--primary);
   }
 
   a {
@@ -31,9 +28,7 @@ $desktop: 1280px;
     }
   }
 
-  .authen {
-    align-self: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
+  span svg {
+    vertical-align: middle;
   }
 }

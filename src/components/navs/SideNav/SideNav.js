@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaHome, FaGamepad, FaUser } from 'react-icons/fa';
 
 import './SideNav.scss';
 
@@ -8,32 +9,48 @@ class SideNav extends React.Component {
     const items = [
       {
         label: 'Home',
-        icon: 'h',
+        icon: <FaHome />,
         link: '/'
       },
       {
         label: 'Admin',
-        icon: 'a',
+        icon: <FaUser />,
         link: '/admin'
       },
       {
         label: 'Game 1',
-        icon: 1,
+        icon: (
+          <span>
+            <FaGamepad /> 1
+          </span>
+        ),
         link: '/game_1'
       },
       {
         label: 'Game 2',
-        icon: 2,
+        icon: (
+          <span>
+            <FaGamepad /> 2
+          </span>
+        ),
         link: '/game_2'
       },
       {
         label: 'Game 3',
-        icon: 3,
+        icon: (
+          <span>
+            <FaGamepad /> 3
+          </span>
+        ),
         link: '/game_3'
       },
       {
         label: 'Game 4',
-        icon: 4,
+        icon: (
+          <span>
+            <FaGamepad /> 4
+          </span>
+        ),
         link: '/game_4'
       }
     ];
