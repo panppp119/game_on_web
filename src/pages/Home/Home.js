@@ -1,8 +1,16 @@
 import React from 'react';
 
+import SideNav from 'components/navs/SideNav';
+
+import './Home.scss';
+
 class Home extends React.Component {
   render() {
-    return <h1>HOME</h1>;
+    return (
+      <div id="home-page">
+        <SideNav />
+      </div>
+    );
   }
 }
 

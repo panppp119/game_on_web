@@ -1,0 +1,38 @@
+$desktop: 1280px;
+
+#side-nav {
+  width: 50px;
+  height: 100%;
+  background-color: var(--primary_dark);
+  box-shadow: 4px 0 5px var(--primary_light);
+  color: var(--white);
+
+  @media screen and (min-width: $desktop) {
+    width: 150px;
+  }
+
+  .main {
+    line-height: 150px;
+    border-bottom: 2px solid var(--secondary);
+
+    &:hover {
+      background-color: var(--primary_dark);
+    }
+  }
+
+  a {
+    color: var(--white) !important;
+    text-decoration: none;
+    display: block;
+
+    &:visited {
+      color: var(--white);
+    }
+  }
+
+  .authen {
+    align-self: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+}
