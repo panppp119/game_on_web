@@ -2,14 +2,18 @@ import React from 'react';
 
 import CoreLayout from 'components/layouts/CoreLayout';
 
-class NotFound extends React.Component {
+import './Game2.scss';
+
+class Game2 extends React.Component {
   render() {
     return (
       <CoreLayout>
-        <h1>Page Not Found!</h1>
+        <div id="game2-page">
+          <h1>Game2</h1>
+        </div>
       </CoreLayout>
     );
   }
 }
 
-export default NotFound;
+export default Game2;

@@ -6,6 +6,7 @@ $desktop: 1280px;
   background-color: var(--primary_dark);
   box-shadow: 4px 0 5px var(--primary_light);
   color: var(--white);
+  display: inline-block;
 
   @media screen and (min-width: $desktop) {
     width: 150px;

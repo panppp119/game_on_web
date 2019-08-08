@@ -1,15 +1,17 @@
 import React from 'react';
 
-import SideNav from 'components/navs/SideNav';
+import CoreLayout from 'components/layouts/CoreLayout';
 
 import './Home.scss';
 
 class Home extends React.Component {
   render() {
     return (
-      <div id="home-page">
-        <SideNav />
-      </div>
+      <CoreLayout>
+        <div id="home-page">
+          <h1>Home</h1>
+        </div>
+      </CoreLayout>
     );
   }
 }
